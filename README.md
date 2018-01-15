@@ -51,7 +51,7 @@ class TwoPlusTwoCommand extends StandardCommand
  php two-plus-two
  ```
  
- ## Documentation
+ ## Basic usage
  
  ### Available commands
  You can see tooler's available commands by typing:
