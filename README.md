@@ -1,4 +1,5 @@
-# ToolerFramework
+<p align="center"><img src="http://wyrzykowska.usermd.net/imgs/ToolerFramework_2.png"></p>
+
 a **minimalistic** PHP framework for rapid Command Line Interface tools development.
 
 ## Installation
