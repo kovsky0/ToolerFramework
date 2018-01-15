@@ -126,13 +126,13 @@ Available background colors:
 
 #### $this->prompt
 You can use it in your code by referencing $this->prompt.
-`$this->prompt->prompt("What is your favourite color?")` - prompts custom text
-`$this->prompt->confirm("Are you sure you want to continue? [y/n]")` - prompts a yes or no question
-`$this->prompt->multipleChoice(array("blue", "yellow", "green", "red"))` - prompts a multiple choice question, by default only one option can be chosen
-`$this->prompt->multipleChoice(array("blue", "yellow", "green", "red"), null, true)` - prompts a multiple choice question, where user can choose more than one option
-`$this->prompt->getResponse()` - returns the user's input
-`$this->prompt->getConfirmationResponse()` - returns true for anything starting with 'y' or 'Y' and false for everything else
-`$this->prompr->getMultipleChoiceResponse()` - returns user's choices for multiple choice question 
+- `$this->prompt->prompt("What is your favourite color?")` - prompts custom text
+- `$this->prompt->confirm("Are you sure you want to continue? [y/n]")` - prompts a yes or no question
+- `$this->prompt->multipleChoice(array("blue", "yellow", "green", "red"))` - prompts a multiple choice question, by default - only one option can be chosen
+- `$this->prompt->multipleChoice(array("blue", "yellow", "green", "red"), null, true)` - prompts a multiple choice question, where user can choose more than one option
+- `$this->prompt->getResponse()` - returns the user's input
+- `$this->prompt->getConfirmationResponse()` - returns true for anything starting with 'y' or 'Y' and false for everything else
+- `$this->prompr->getMultipleChoiceResponse()` - returns user's choices for multiple choice question 
 
 
 
