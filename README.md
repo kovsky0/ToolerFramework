@@ -5,7 +5,7 @@ a **minimalistic** PHP framework for rapid Command Line Interface tools developm
 Tooler can be installed using Composer:
 
 ```
-composer create-project kovsky0/ToolerFramework --prefer-dist
+composer create-project kovsky0/tooler-framework
 ```
 ## The idea
 The main idea behind this project was to create an extremely minimalistic micro-framework for rapid CLI tools development.
