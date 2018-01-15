@@ -8,7 +8,7 @@ Tooler can be installed using Composer:
 composer create-project kovsky0/tooler-framework
 ```
 ## The idea
-The main idea behind this project was to create an extremely minimalistic micro-framework for rapid CLI tools development.
+The main idea behind this project was to create a minimalistic framework for rapid CLI tools development.
 It gives you a simple directory structure and access to basic helpers for: parsing the input, formatting the output, and prompting user for additional input.
 
 ## Quick Start (in three simple steps) 
