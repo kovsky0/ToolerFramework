@@ -1,0 +1,27 @@
+{
+  "name": "kovsky0/tooler-framework",
+  "description": "a minimalistic PHP framework for rapid development of Command Line Interface tools.",
+  "keywords": [
+    "PHP",
+    "console",
+    "cli",
+    "framework"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Wyrzykowski",
+      "role": "Creator"
+    }
+  ],
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ToolerFramework\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-mbstring": "*"
+  }
+}

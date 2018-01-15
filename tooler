@@ -1,0 +1,7 @@
+<?php
+require_once(__DIR__.'/vendor/autoload.php');
+
+use ToolerFramework\Commands\Tooler\ToolerCommand;
+
+$tooler = new ToolerCommand($argv);
+$tooler->execute();

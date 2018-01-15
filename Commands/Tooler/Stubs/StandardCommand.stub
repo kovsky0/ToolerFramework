@@ -1,0 +1,12 @@
+<?php
+namespace ToolerFramework\Commands\DummyCommand;
+
+use ToolerFramework\Commands\StandardCommand;
+
+class DummyCommand extends StandardCommand
+{
+    public function execute()
+    {
+        //Business logic goes here
+    }
+}
