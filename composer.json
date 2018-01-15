@@ -23,5 +23,6 @@
   "require": {
     "php": "^7.1",
     "ext-mbstring": "*"
-  }
+  },
+  "minimum-stability": "dev"
 }
