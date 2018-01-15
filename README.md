@@ -80,49 +80,49 @@ There are 3 helpers available to you (if your command extends "StandardCommand",
 
 #### $this->input
 You can use it in your code by referencing $this->input.
-- $this->input->command - the name of the command that was called
-- $this->input->flags - all the -short and --long flags that have been used
-- $this->input->arguments - all the other arguments that have been used
+- `$this->input->command` - the name of the command that was called
+- `$this->input->flags` - all the -short and --long flags that have been used
+- `$this->input->arguments` - all the other arguments that have been used
 
 #### $this->output
 You can use it in your code by referencing $this->output.
-- $this->output->write("exemplary text", "white", "red") - outputs given text to the console, first color is a color of the fotn, second color is the color of the background.
-- $this->output->writeln("exemplary text", "white", "red") - outputs given text to the console with a newline character at the end.
-- $this->output->wirteln(array("line 1", "line 2", "third line"), "white", "red") - outputs each elements of the array in a new line
-- $this->output->message("Title: ", "A long text body of the message") - outputs multiline message, where the text is justified next to the provided title. See an example below:
+- `$this->output->write("exemplary text", "white", "red")` - outputs given text to the console, first color is a color of the fotn, second color is the color of the background.
+- `$this->output->writeln("exemplary text", "white", "red")` - outputs given text to the console with a newline character at the end.
+- `$this->output->wirteln(array("line 1", "line 2", "third line"), "white", "red")` - outputs each elements of the array in a new line
+- `$this->output->message("Title: ", "A long text body of the message")` - outputs multiline message, where the text is justified next to the provided title. See an example below:
               TITLE: TEXT TEXT TEXT TEXT
                      TEXT TEXT TEXT TEXT 
-- $this->output->warning("This is a custom warning") - outputs a message with "WARNING: " as a title, red background, and white font color.
-- $this->output->info("This is a custom info") - outputs a message with "INFO: " as a title, blue background, and white font color.
-- $this->output->success("This is a custom success message") - outputs a message with "SUCCESS: " as a title, green background, and white font color.
+- `$this->output->warning("This is a custom warning")` - outputs a message with "WARNING: " as a title, red background, and white font color.
+- `$this->output->info("This is a custom info")` - outputs a message with "INFO: " as a title, blue background, and white font color.
+- `$this->output->success("This is a custom success message")` - outputs a message with "SUCCESS: " as a title, green background, and white font color.
                      
 Available font colors:
-'black'
-'dark_grey'
-'blue'
-'light_blue'
-'green'
-'light_green'
-'cyan'
-'light_cyan'
-'red'
-'light_red'
-'purple'
-'light_purple'
-'brown'
-'yellow'
-'light_gray'
-'white'
+* 'black'
+* 'dark_grey'
+* 'blue'
+* 'light_blue'
+* 'green'
+* 'light_green'
+* 'cyan'
+* 'light_cyan'
+* 'red'
+* 'light_red'
+* 'purple'
+* 'light_purple'
+* 'brown'
+* 'yellow'
+* 'light_gray'
+* 'white'
 
 Available background colors:
-'black'
-'red'
-'green'
-'yellow'
-'blue'
-'magenta'
-'cyan'
-'light_gray'
+* 'black'
+* 'red'
+* 'green'
+* 'yellow'
+* 'blue'
+* 'magenta'
+* 'cyan'
+* 'light_gray'
 
 ## To-do
 - add unit tests
