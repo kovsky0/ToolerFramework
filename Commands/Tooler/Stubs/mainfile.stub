@@ -1,7 +1,7 @@
 <?php
 require_once(__DIR__.'/vendor/autoload.php');
 
-use ToolerFramework\Commands\Tooler\DummyCommand;
+use ToolerFramework\Commands\DummyCommand;
 
 $dummy = new DummyCommand($argv);
 $dummy->execute();
