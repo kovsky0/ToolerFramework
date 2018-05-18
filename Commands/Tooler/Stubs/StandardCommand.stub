@@ -1,5 +1,5 @@
 <?php
-namespace ToolerFramework\Commands\DummyCommand;
+namespace ToolerFramework\Commands\Dummy;
 
 use ToolerFramework\Commands\StandardCommand;
 
